@@ -1,10 +1,15 @@
 body {
-background-color: $background-color;
+background-color: tint($background-color, 2%);
 color: $font-color;
 };
 
 .quote {
-background-color: $gray-font; // gray
+background-color: $font-color; // gray
 font-size: 30px;
 };
+
+// .foo {
+//   color: hsl( 300, 100%, 100% );
+//   background: pink;
+// }
 //@import 'index'
